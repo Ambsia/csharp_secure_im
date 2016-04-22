@@ -1,0 +1,135 @@
+﻿<src:WindowBase x:Class="WpfApplication1.MainWindow"
+        Icon="../../Resources/icon.ico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMClient"
+        xmlns:src="clr-namespace:IMClient.view" 
+        mc:Ignorable="d"
+        Title="" Height="275" Width="450" Background="#FFE2E2E2" BorderBrush="#FF008FA6" BorderThickness="1" Closed="WindowBase_Closed"  >
+    <Window.Resources>
+
+
+        <Style x:Key="MyButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF007689"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF008FA6"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="67*"></RowDefinition>
+            <RowDefinition Height="45*" />
+            <RowDefinition Height="52*" />
+            <RowDefinition Height="43*" />
+            <RowDefinition Height="28*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" x:Name="lblTitle" Content="Connect to secure server" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Background="#FF007689" Foreground="#FFE2E2E2" FontFamily="Calibri Light" Height="44" FontSize="24" FontWeight="Bold"/>
+        <Border Grid.Row="1" x:Name="txtBoxBorder" BorderThickness="35,0,0,0" HorizontalAlignment="Stretch" Height="36" VerticalAlignment="Top" Margin="20,0">
+            <Border.Style>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Background" Value="#FFDEDBDB"/>
+                    <Setter Property="BorderBrush" Value="#FF007689"/>
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="#FF008FA6"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+            <TextBox x:Name="txtIP" Text="{Binding IP, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}" 
+        		Height="36" TextWrapping="Wrap" VerticalAlignment="Top" BorderThickness="0,0,0,0"  Background="Transparent" VerticalContentAlignment="Center"
+        		FontFamily="Calibri" FontSize="14.667"  Padding="50,0,0,0" Foreground="#FF888686" Width="Auto" Margin="-35,0,0,0" GotFocus="IpGotFocus" LostFocus="IpLostFocus">
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <DockPanel>
+                            <Border BorderBrush="#FFB64B4B" BorderThickness="1,1,1,1">
+                                <AdornedElementPlaceholder x:Name="controlWithError"/>
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+        </Border>
+        <Border Grid.Row="2" x:Name="txtBoxBorder2" BorderThickness="35,0,0,0" HorizontalAlignment="Stretch" Height="36" VerticalAlignment="Top" Margin="20,0">
+            <Border.Style>
+                <!-- Background="#FFDEDBDB" BorderBrush="#FFB70042" -->
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Background" Value="#FFDEDBDB"/>
+                    <Setter Property="BorderBrush" Value="#FF007689"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="#FF008FA6"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+            <TextBox x:Name="txtPort" Text="{Binding Port, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}" 
+                     Height="36" TextWrapping="Wrap" VerticalAlignment="Top" BorderThickness="0,0,0,0"  Background="Transparent" VerticalContentAlignment="Center"
+                     FontFamily="Calibri" FontSize="14.667" Padding="50,0,0,0" Foreground="#FF888686" Width="Auto" Margin="-35,0,0,0" GotFocus="PortGotFocus" LostFocus="PortLostFocus" BorderBrush="{x:Null}">
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <DockPanel>
+                            <Border BorderBrush="#FFB22222" BorderThickness="1,1,1,1">
+                                <AdornedElementPlaceholder x:Name="controlWithError"/>
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+        </Border>
+        <Button Grid.Row="3" x:Name="button" Content="CONNECT" Style="{StaticResource MyButtonStyle}" VerticalAlignment="Top" FontFamily="Calibri Light" Height="38" FontSize="17.333" Click="Connect" Foreground="#FFE2E2E2" Margin="20,0"  />
+        <Label Grid.Row="4" x:Name="lblErrorMessage" Content="dfgfd" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Background="#3FFF0000" Foreground="#CCFF0000" FontFamily="Calibri" Height="28" Opacity="0" FontSize="16"/>
+
+        <!--<Rectangle HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="297" MouseDown="MoveWindow" Fill="#FF008FA6" Margin="0,0,-1,0" />-->
+        <!--<Rectangle HorizontalAlignment="Left" IsHitTestVisible="False" Height="50" VerticalAlignment="Top" Width="296">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/IMClient;component/Resources/banner/TopBannerBig.png"/>
+            </Rectangle.Fill>
+        </Rectangle>-->
+        <!--<Rectangle x:Name="Close_btn" HorizontalAlignment="Left" Height="33" Margin="261,0,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.5,0.5"  MouseLeftButtonUp="Exit" MouseEnter="ActivateHover" MouseLeave="DeactivateHover" MouseLeftButtonDown="ButtonPressed">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/IMClient;component/Resources/close/CloseIconDeactive.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Minimise_btn" HorizontalAlignment="Left" Height="33" Margin="225,0,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.5,0.5"  MouseLeftButtonUp="Minimise" MouseEnter="ActivateHover" MouseLeave="DeactivateHover" MouseLeftButtonDown="ButtonPressed">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/IMClient;component/Resources/minimise/MinimizeButtonDeactive.png"/>
+            </Rectangle.Fill>
+        </Rectangle>-->
+    </Grid>
+</src:WindowBase>

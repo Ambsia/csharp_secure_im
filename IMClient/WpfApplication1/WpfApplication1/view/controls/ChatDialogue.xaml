@@ -1,0 +1,187 @@
+﻿<UserControl x:Class="IMClient.ChatDialogue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IMClient"
+             mc:Ignorable="d"
+             HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Background="#ffE3E3E3" Width="auto" Height="auto" Foreground="{x:Null}">
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#FFD1D1D1" />
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#FFECECEC"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border BorderThickness="{TemplateBinding BorderThickness}" 
+                                             BorderBrush="{TemplateBinding BorderBrush}" 
+                                             Background="{TemplateBinding Background}" 
+                                             SnapsToDevicePixels="true">
+                            <ScrollViewer Name="PART_ContentHost" Background="{TemplateBinding Background}" 
+                                          SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Value="{StaticResource DisabledBackgroundBrush}" Property="Background" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="ContentControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ContentControl">
+                        <Grid>
+                            <Ellipse
+                Width="60" Height="60" Stroke="#99292929" StrokeThickness="1">
+                            </Ellipse>
+                            <ContentPresenter 
+                                HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="#FFECECEC" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"></ColumnDefinition>
+            <ColumnDefinition Width="354*"></ColumnDefinition>
+            <ColumnDefinition Width="200*"></ColumnDefinition>
+
+
+            <ColumnDefinition Width="465*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="266*"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition Height="67*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.ColumnSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Left" Background="#FFECECEC" Width="308">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="49*"></ColumnDefinition>
+                <ColumnDefinition Width="100*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column="0" Grid.RowSpan="3" Grid.Row="0" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,5,202.5,5.5" >
+                <Label></Label>
+                <!-- gives us better placemenet of the image-->
+                <Image Source="../../view/windows/resources/images/userhuge.png"  Width="64" Height="64" RenderOptions.BitmapScalingMode="HighQuality"></Image>
+            </StackPanel>
+            <Label x:Name="lblUsername"  Content="Christopher" Grid.Column="1" Grid.Row="0" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Foreground="#C6191919" FontFamily="Calibri Light" FontSize="26" Background="{x:Null}"/>
+
+        </Grid>
+        <Image Grid.Row="0" Grid.Column="2" x:Name="FingerPrint"   Width="48" Height="48" RenderOptions.BitmapScalingMode="HighQuality">
+            <Image.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="CopyToClipBoard" Header="Copy to clipboard">
+                        <MenuItem.Icon>
+                            <Image Height="16" Width="16" Source="../../view/windows/resources/images/fingerprint.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="ButtonRegenerateKeys"  Header="Regenerate">
+                    </MenuItem>
+                </ContextMenu>
+            </Image.ContextMenu>
+        </Image>
+
+        <StackPanel  Grid.Column="3" Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Right"  Width="379">
+            <TextBlock x:Name="lblSecurity" Text="Conversation security"  Foreground="#C6191919" FontFamily="Calibri Light" FontSize="22" />
+            <Grid Height="23">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"></ColumnDefinition>
+                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock FontFamily="Calibri Light" Text="Encrytion method:" VerticalAlignment="Center" HorizontalAlignment="Stretch" FontSize="16" Height="20" Margin="0,3" Foreground="#C6191919" ></TextBlock>
+                <ComboBox x:Name="EncryptionMethod" FontSize="15" FontFamily="Calibri Light" Grid.Column="1" SelectedIndex="0"  HorizontalAlignment="Left" SelectionChanged="cmbEncMethod_SelectionChanged" Width="180" Foreground="#C6191919" >
+                    <ComboBoxItem FontSize="15" FontFamily="Calibri Light" Content="Symmetrical Encryption"/>
+                    <ComboBoxItem FontSize="15" FontFamily="Calibri Light" Content="One Time Pad"/>
+                </ComboBox>
+
+            </Grid>
+            <Separator Height="0"></Separator>
+            <Grid Height="23">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"></ColumnDefinition>
+                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock FontFamily="Calibri Light"  VerticalAlignment="Center" HorizontalAlignment="Stretch" Text="Encryption standard:" FontSize="15" Foreground="#C6191919" ></TextBlock>
+                <ComboBox x:Name="EncryptionStandard" FontSize="15" FontFamily="Calibri Light" Grid.Column="1" SelectedIndex="0" HorizontalAlignment="Left" Foreground="#C6191919">
+                    <ComboBoxItem FontSize="15" Content="AES 256" FontFamily="Calibri Light" />
+                    <ComboBoxItem FontSize="15" Content="Triple DES 192" FontFamily="Calibri Light" />
+                </ComboBox>
+            </Grid>
+            <Separator Height="0" Background="{x:Null}"></Separator>
+
+            <Grid Height="23">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"></ColumnDefinition>
+                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" FontFamily="Calibri Light"  VerticalAlignment="Center" HorizontalAlignment="Stretch" Text="Synchronise with partner:" FontSize="15" Foreground="#C6191919"  ></TextBlock>
+                <CheckBox x:Name="SynchroniseCheckBox" VerticalAlignment="Center" FontSize="15" FontFamily="Calibri Light" Background="#00000000" Grid.Column="1" Foreground="#C6191919" HorizontalAlignment="Stretch"></CheckBox>
+            </Grid>
+        </StackPanel>
+        <!--<Separator Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Stretch" Background="#FFAAAAAA" Foreground="{x:Null}" />-->
+        <Grid Grid.Column="0" Grid.ColumnSpan="4"  Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFECECEC">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="0,1,0,0" Height="1" BorderBrush="#FFCCCCCC" ></Border>
+            <TextBox Padding="5" BorderThickness="0" Grid.Row="1" Text="{Binding receive.BuilderText, Mode=OneWay}" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  ScrollViewer.VerticalScrollBarVisibility="Auto" x:Name="txtRecieve" HorizontalAlignment="Stretch"  TextWrapping="Wrap" VerticalAlignment="Stretch"  Background="#FFECECEC" Foreground="#C6191919" FontFamily="Calibri Light" FontSize="16" TextChanged="txtRecieve_TextChanged"  Margin="0,0,0,0" BorderBrush="{x:Null}" IsReadOnly="True" />
+        </Grid>
+        <GridSplitter   Grid.ColumnSpan="4"  Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="1" Background="#FFCCCCCC" >
+        </GridSplitter>
+        <Grid Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFD4D4D4" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="471*"></ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="470*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TextBox  Padding="5"  Text="{Binding messagePad.Message, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" x:Name="txtSend"  HorizontalAlignment="Stretch"  TextWrapping="Wrap"  Background="#FFECECEC"  BorderThickness="0" Foreground="#C6191919" FontFamily="Calibri Light" FontSize="16" TextAlignment="Justify" BorderBrush="{x:Null}">
+                    <Validation.ErrorTemplate>
+                        <ControlTemplate>
+                            <DockPanel>
+                                    <Border BorderThickness="1" BorderBrush="#FFB64B4B" Width="auto" Height="auto">
+                                    <AdornedElementPlaceholder x:Name="controlWithError"/>
+                                </Border>
+                            </DockPanel>
+
+                        </ControlTemplate>
+                    </Validation.ErrorTemplate>
+                </TextBox>
+                </Border>
+            </Grid>
+            <GridSplitter Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Background="#FFCCCCCC" VerticalAlignment="Stretch" Margin="0,0,470,0"/>
+            <Grid  Grid.Row="0" Grid.Column="2" >
+                <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    <TextBox Padding="5" Text="{Binding messagePad.Pad, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" x:Name="txtOneTimePad" HorizontalAlignment="Stretch"  TextWrapping="Wrap"  Background="#FFECECEC"  BorderThickness="0" Foreground="#C6191919" FontFamily="Calibri Light" FontSize="16" BorderBrush="{x:Null}"  GotFocus="txtOneTimePad_GotFocus" LostFocus="txtOneTimePad_LostFocus">
+       
+                        <Validation.ErrorTemplate>
+                            <ControlTemplate>
+                                     <DockPanel>
+                                    <Border BorderThickness="1" BorderBrush="#FFB64B4B" Width="auto" Height="auto">
+                                    <AdornedElementPlaceholder x:Name="controlWithError"/>
+                                </Border>
+                            </DockPanel>
+                            </ControlTemplate>
+                        </Validation.ErrorTemplate>
+                    </TextBox>
+                </Border>
+            </Grid>
+        </Grid>
+        <Label x:Name="lblFingerPrint" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"  Content="a7:f8:10:c2:b9:c6:fe:2c:1c:d3:6f:90:a8:ab:23:72:5b:ee:ed:30"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Foreground="#C6191919" FontFamily="Calibri Light" FontSize="14" Height="26"/>
+    </Grid>
+</UserControl>

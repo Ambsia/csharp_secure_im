@@ -1,0 +1,13 @@
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\controls\TitleBar.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\windows\AuthWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\controls\ChatDialogue.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\windows\IMMainWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\windows\IMMainWindowNew.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\view\windows\MainWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\App.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\IMClient_Content.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\IMClient_MarkupCompile.cache
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\IMClient_MarkupCompile.lref
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\x64\Debug\IMClient.exe.config
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\x64\Debug\IMClient.csprojResolveAssemblyReference.cache

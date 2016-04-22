@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IMServer.ClientHandler" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAEAACAABCAAAAQAAIAAUQQAAAAAAA=</HashCode>
+      <FileName>controller\ClientHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.ServerListener" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAABAAAAAAgAACAAAAIQAAAAAAgAAAAAAAAgCA=</HashCode>
+      <FileName>controller\ServerListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.Clientele" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAQQQAAAAAAAAAAAAAAAAAAAAgAgAAAAI=</HashCode>
+      <FileName>model\Clientele.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.ClientInformation" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAHAAAAAAAAAAAAEARAAAgkAAAAQAAACAAIAAAAAAAA=</HashCode>
+      <FileName>model\ClientInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.Server" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.ServerInfo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAgAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>utils\ServerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.ConsoleBuffer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBAAAACAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>view\ConsoleBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMServer.utils.Cryptography" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>utils\Cryptography.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,106 @@
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe.config
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.exe
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.dll
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csprojResolveAssemblyReference.cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\AuthWindow.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMMainWindow.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.lref
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\AuthWindow.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMMainWindow.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.g.resources
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.Properties.Resources.resources
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csproj.GenerateResource.Cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\ChatDialogue.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\ChatDialogue.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.dll
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe.config
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMClient.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\AuthWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\ChatDialogue.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMMainWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.cache
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.lref
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\AuthWindow.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\ChatDialogue.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMMainWindow.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.g.resources
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.Properties.Resources.resources
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csproj.GenerateResource.Cache
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.exe
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\New Client\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csprojResolveAssemblyReference.cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe.config
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.exe
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\IMClient.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.dll
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.pdb
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csprojResolveAssemblyReference.cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.lref
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.g.resources
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.Properties.Resources.resources
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csproj.GenerateResource.Cache
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\controls\TitleBar.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\AuthWindow.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\controls\ChatDialogue.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\IMMainWindowNew.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\MainWindow.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\controls\TitleBar.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\AuthWindow.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\controls\ChatDialogue.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\IMMainWindowNew.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\view\windows\MainWindow.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\IMClient_Content.g.cs
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\obj\Debug\App.baml
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\search-512.png
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\userhuge.png
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\fingerprint.png
+C:\Users\alexm\Google Drive\University\My Project\Project Source\IMClient\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\fingerprint2.png
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\fingerprint.png
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\fingerprint2.png
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\search-512.png
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\view\windows\resources\images\userhuge.png
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe.config
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\IMClient.exe
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\IMClient.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.dll
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\bin\Debug\IMLibrary.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\controls\TitleBar.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\AuthWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\controls\ChatDialogue.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\IMMainWindowNew.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\MainWindow.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient_Content.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.cache
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient_MarkupCompile.lref
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\App.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\controls\TitleBar.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\AuthWindow.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\controls\ChatDialogue.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\IMMainWindowNew.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\view\windows\MainWindow.baml
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.g.resources
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.Properties.Resources.resources
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csproj.GenerateResource.Cache
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.exe
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.pdb
+C:\Users\Alex\Google Drive\University\My Project\Project Source\IMClient (1)\WpfApplication1\WpfApplication1\obj\Debug\IMClient.csprojResolveAssemblyReference.cache

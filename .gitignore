@@ -38,6 +38,20 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.cd
+.DotSettings
+.csproj
+.png
+.exe
+.manifest
+.pdb
+.pfx
+.xml
+.bat
+.txt
+.cache
+.dll
+.dat
 
 # Directories potentially created on remote AFP share
 .AppleDB

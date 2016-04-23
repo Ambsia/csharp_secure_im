@@ -21,7 +21,7 @@ namespace IMServer
         private readonly Clientele _clientele;
         private readonly TcpClient _tcpClient;
         private readonly Thread serverThread;
-        private readonly X509Certificate2 _sslCertificate = new X509Certificate2(Path.GetFullPath(@"server.pfx"), @"Sgf45g@[;gr35");
+        private readonly X509Certificate2 _sslCertificate = new X509Certificate2(Path.GetFullPath(@""), @"");
         private BinaryReader _binaryReader;
         private BinaryWriter _binaryWriter;
         private ClientInformation _clientInfo; //client info

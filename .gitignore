@@ -4,6 +4,11 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+/IMClient/WpfApplication1/WpfApplication1/Properties
+/IMClient/WpfApplication1/WpfApplication1/Resources
+/IMLibrary/IMLibrary/Properties
+/IMLibrary/IMServerTests/Properties
+/IMServer/IMServer/Properties
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -52,6 +57,10 @@ $RECYCLE.BIN/
 *.cache
 *.dll
 *.dat
+*.ico
+*.user
+WindowTest.cs
+MainWindow.xaml[Conflict].cs
 
 # Directories potentially created on remote AFP share
 .AppleDB
